@@ -1,0 +1,34 @@
+*{
+    font-family:monospace;
+}
+div{
+    margin: 50px;
+    text-align: center;
+    padding: 5px;
+}
+button{
+    color: wheat;
+    font-size: 32px;
+    margin: 10px;
+    height: 100px;
+    width: 200px;
+    border: 0;
+    border-radius: 20px;
+    background-image:-webkit-linear-gradient(blue,rgb(52, 52, 189))
+}
+.title, #number{
+    font-size: 72px;
+}
+button:hover{
+    background-image:none;
+    cursor: pointer;
+}
+#up:hover{
+    background-color: green;
+}
+#down:hover{
+    background-color: red;
+}
+#reset:hover{
+    background-color: rgb(141, 141, 61);
+}
